@@ -1,0 +1,13 @@
+name: flavor
+description: "Flavor of the base app"
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.4 <4.0.0'
+
+dependencies:
+  base:
+    path: ../../base

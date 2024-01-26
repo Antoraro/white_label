@@ -1,0 +1,5 @@
+{
+  "title_base": "Press the button to add 1 to the counter",
+  "title_double": "Press the button to double the counter",
+  "title_fib": "Press the button to add the next Fibonacci number to the counter"
+}

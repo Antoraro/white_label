@@ -1,0 +1,35 @@
+name: fib
+description: "A fib flavors_app flavor"
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.4 <4.0.0'
+
+dependencies:
+  base:
+    path: ../base
+
+dependency_overrides:
+  flavor:
+    path: flavor
+
+  cupertino_icons: ^1.0.2
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+  generate: true
+  assets:
+    - flavor/assets/
